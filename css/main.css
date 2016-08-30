@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row:before, .row:afer {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+[class*="col-"] {
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%
+}
+
+.col-5 {
+    width: 41.666667%
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-8 {
+    width: 66,666667%
+}
+
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-11 {
+    width: 91.666667%;
+}
+
+.col-12 {
+    width: 100%;
+}    
+
+li
+ {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	margin: 10px 0;
+}
+
+ul {
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	width: 250px;
+	position: relative;
+	left: 400px;
+}
+
+a {
+	text-decoration: none;
+	margin: 20px;
+	text-align: center;
+	position: relative;
+	color: black;
+	left: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+	padding: 30px;
+
+}
+
+.primer-texto {
+	font-size: 20px;
+	color: black;
+	position: relative;
+	left: 400px;
+	width: 250px;
+	text-align: center;
+}
+
+.nombre {
+	position: relative;
+	color: #FFF
+	left: 100px;
+	bottom: 20px;
+	j
+}
+
+.linea {
+	border-right: 2px solid black;
+}
+
+.logo {
+	width: 80%;
+	left: 250px;
+	position: relative;
+}
+
+.nombre {
+	position: relative;
+	bottom: 20px;
+	left: 100px;
+	
+}
+
+.logo {
+	position: relative;
+	left: 100px;
+	width: 80%;
+}
+
+.nombre {
+	bottom: 20px;
+	left: 250px;
+	position: relative;
+	color: black;
+}
+
+.subtitulo {
+	width: 55px;
+	color: black;
+}
+
+.grupal {
+	width: 50%;
+	left: 250px;
+	position: relative;
+}
+
+.texto {
+	width:  55px;
+	left: 490px;
+	position: relative;
+}
+
+.perfil {
+	margin: 20px auto;
+	padding: 20px;
+	border: 2px solid gray;
+}
+
+.foto-dos {
+	width: 100%;
+}
+
+border-radius: 100%;
+	margin-left: 40%;
+}
+
+
+.texto1{
+	float: left;
+	padding: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.texto2{
+	background: gray;
+	margin: 20px;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+}
+
+.uno{
+	width: 800px;
+}
+
+.dos{
+	width: 400px;
+}
+
+.tres{
+	width: 200px;
+}
